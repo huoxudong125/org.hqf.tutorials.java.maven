@@ -15,7 +15,7 @@
 
     <build>
 
-   <!--     <filters>
+        <filters>
             <filter>profiles/${build.profile.id}_config.properties</filter>
         </filters>
         <resources>
@@ -23,7 +23,7 @@
                 <directory>src/main/resources/</directory>
                 <filtering>true</filtering>
             </resource>
-        </resources>-->
+        </resources>
 
     </build>
 </project>

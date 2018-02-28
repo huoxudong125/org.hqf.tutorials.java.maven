@@ -1,0 +1,7 @@
+
+
+Hello : [${name}]
+
+Project.Version: [${project.build.sourceEncoding}]
+
+My Signature: [${my.name}}]
