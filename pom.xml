@@ -9,8 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>basic</module>
-        <module>profile</module>
+        <module>maven-basic</module>
+        <module>maven-profile</module>
     </modules>
 
 

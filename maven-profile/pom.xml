@@ -8,24 +8,21 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <artifactId>maven-profile</artifactId>
 
-    <artifactId>basic</artifactId>
 
-    <name>Maven Basic Demo</name>
-
-    <properties>
-        <my.name>Frank Huo</my.name>
-    </properties>
 
     <build>
+
+        <filters>
+            <filter>profiles/${build.profile.id}_config.properties</filter>
+        </filters>
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
-                <!--开启替换${} 占位符-->
+                <directory>src/main/resources/</directory>
                 <filtering>true</filtering>
             </resource>
         </resources>
+
     </build>
-
-
 </project>
